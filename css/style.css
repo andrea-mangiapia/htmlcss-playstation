@@ -1,7 +1,96 @@
 body {
     font-family: Arial, sans-serif;
 }
+img {
+    width: 100%;
+    display: block;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
 
+/************
+    HEADER
+*************/
 header {
     font-family: Helvetica, arial, sans-serif;
+    width: 100%;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+/*** Top Header ***/
+.am-top-header, .am-bottom-header {
+    padding: 10px;
+}
+.am-top-header {
+    background-color: black;
+    height:35px;
+}
+.am-top-header .am-logo-top {
+    height: 15px;
+    display: inline-block;
+    float: right;
+}
+.am-logo-top img {
+    height: 100%;
+}
+/***Bottom Header ***/
+.am-bottom-header {
+    height: 60px;
+}
+/* Burger Menu */
+.am-burger {
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 25px;
+}
+.am-burger a {
+    color: black;
+}
+/* Main Menu */
+.am-burger-menu, .am-main-menu {
+    justify-content: space-between;
+    align-items: center;
+}
+.am-main-menu i {
+    color: grey;
+}
+.am-logo-bottom img {
+    width: 50px;
+}
+ul.am-main-menu-left, ul.am-main-menu-right {
+    display: flex;
+    align-items: center;
+}
+.am-main-menu-left li {
+    margin-right: 20px;
+}
+.am-main-menu-right li {
+    margin-left: 20px;
+}
+.am-icon-lens {
+    width: 25px;
+}
+a.am-btn {
+    padding: 10px 15px;
+    border-radius: 30px;
+    color: white;
+}
+.am-btn-black {
+    background-color: #363636;;
+}
+
+/***********
+    MAIN
+************/
+main {
+    margin-top: 95px;
 }
