@@ -28,7 +28,21 @@ section.am-padd {
     padding: 20px 0;
 }
 h2 {
-    font-size: 3rem;
+    font-size: 2.6rem;
+}
+h3 {
+    font-size: 1.4rem;
+}
+h4 {
+    font-size: 1.1rem;
+}
+.am-lightblue {
+    color: #2d64e6;
+}
+/* Color section */
+.am-s-lightblue-ps {
+    background-color: #00439c;
+    color: white;
 }
 /* Botton Style */
 a.am-btn {
@@ -184,4 +198,3 @@ main {
     font-size: 1rem;
     padding: 10px 0;
 }
-
