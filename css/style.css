@@ -139,6 +139,9 @@ main {
 .am-s-jumbo p {
     font-weight: 700;
 }
+.am-s-jumbo h2, .am-s-jumbo p  {
+    max-width: 420px;
+}
 
 /* Section Cover */
 .am-cover img {
@@ -158,11 +161,3 @@ main {
     text-align: center;
 }
 /* END Section PlayStation Presentation */
-
-
-
-@media screen and (min-width: 992px) {
-    .am-s-jumbo h2, .am-s-jumbo p  {
-        max-width: 420px;
-    }
-}
