@@ -16,12 +16,34 @@ a {
 }
 section {
     padding: 40px 0;
-    background-color: pink;
+}
+section.am-padd {
+    padding: 20px 0;
+}
+.am-padd {
+    padding: 20px 0;
 }
 h2 {
     font-size: 3rem;
 }
-
+/* Botton Style */
+a.am-btn {
+    padding: 10px 15px;
+    border-radius: 30px;
+    color: white;
+}
+.am-btn-padd {
+    padding: 20px 0;
+}
+.am-btn-black {
+    background-color: #363636;;
+}
+.am-btn-orange {
+    background-color: #cd3d0f;
+}
+.am-btn-lightblue {
+    background-color: #2d64e6;
+}
 /************
     HEADER
 *************/
@@ -86,14 +108,6 @@ ul.am-main-menu-left, ul.am-main-menu-right {
 .am-icon-lens {
     width: 25px;
 }
-a.am-btn {
-    padding: 10px 15px;
-    border-radius: 30px;
-    color: white;
-}
-.am-btn-black {
-    background-color: #363636;;
-}
 
 /***********
     MAIN
@@ -101,11 +115,16 @@ a.am-btn {
 main {
     margin-top: 95px;
 }
-/* Section Banner Top */
+/* Section Jumbo */
+.am-jumbo-img-1  {
+    background-image: url(../img/jumbo-bg.png);
+}
+.am-jumbo-img-2  {
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+}
 .am-s-jumbo {
     width: 100%;
     height: 700px;
-    background-image: url(../img/jumbo-bg.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -114,11 +133,36 @@ main {
 .am-s-jumbo img {
     max-width: 250px;
 }
+.am-s-jumbo h2 {
+    padding: 20px 0;
+}
+.am-s-jumbo p {
+    font-weight: 700;
+}
+
+/* Section Cover */
+.am-cover img {
+    border-radius: 20px;
+}
+.am-cover:hover img {
+    padding: 4px;
+    border: 2px solid #2d64e6;
+}
+/* END Section Cover */
+
+/* Section PlayStation Presentation */
+.am-card-ps img {
+    padding: 0 30px;
+}
+.am-card-ps {
+    text-align: center;
+}
+/* END Section PlayStation Presentation */
 
 
 
 @media screen and (min-width: 992px) {
-    .am-s-jumbo p {
-        max-width: 500px;
+    .am-s-jumbo h2, .am-s-jumbo p  {
+        max-width: 420px;
     }
 }
