@@ -1,3 +1,4 @@
+/* RESET */
 body {
     font-family: Arial, sans-serif;
 }
@@ -14,19 +15,6 @@ a {
     color: black;
     text-decoration: none;
 }
-section {
-    padding: 40px 0;
-}
-section.am-padd {
-    padding: 20px 0;
-}
-.am-s-bg-grey-dark {
-    background-color: #1f1f1f;
-    color: white;
-}
-.am-padd {
-    padding: 20px 0;
-}
 h2 {
     font-size: 2.6rem;
 }
@@ -36,12 +24,50 @@ h3 {
 h4 {
     font-size: 1.1rem;
 }
+section {
+    padding: 40px 0;
+}
+section.am-padd {
+    padding: 20px 0;
+}
+section.am-padd-0 {
+    padding: 40px 0;
+}
+
+/* UTILITY */
+.am-padd {
+    padding: 20px 0;
+}
+.am-img-logo-ps {
+    width: 200px;
+    margin-bottom: 20px;
+}
 .am-lightblue {
     color: #2d64e6;
 }
+.am-header-small h2 {
+    font-size: 2.2rem;
+}
+.am-header-small h3 {
+    font-size: 1.5rem;
+}
+.am-header-small h2, h3 {
+    padding-bottom: 10px;
+}
 /* Color section */
+.am-s-grey-dark {
+    background-color: #1f1f1f;
+    color: white;
+}
 .am-s-lightblue-ps {
     background-color: #00439c;
+    color: white;
+}
+.am-s-grey-ps {
+    background-color: #bebcbb;
+}
+.am-s-blue-ps {
+    background-color: #161c3b;
     color: white;
 }
 /* Botton Style */
@@ -61,6 +87,14 @@ a.am-btn {
 }
 .am-btn-lightblue {
     background-color: #2d64e6;
+}
+a.am-btn-grey {
+    background-color: #d9dadc;
+    color: #2d64e6;
+}
+a.am-btn-white {
+    background-color: white;
+    color: black;
 }
 /************
     HEADER
@@ -182,19 +216,29 @@ main {
 /* END Section PlayStation Presentation */
 
 /* Section Covers News */
-.am-cover-square-header h2 {
-    font-size: 2.2rem;
-}
-.am-cover-square-header h3 {
-    font-size: 1.5rem;
-}
-.am-cover-square-header h2, h3 {
-    padding-bottom: 10px;
-}
 .am-img-square img {
     border-radius: 20px;
 }
 .am-cover-square h2 {
     font-size: 1rem;
     padding: 10px 0;
+}
+/* END Section Covers News */
+
+/* TABLET (MD) */
+@media screen and (min-width: 760px) {
+    section.am-padd-0 {
+        padding: 0;
+    }
+    .am-icon-social {
+        max-width: 540px;
+        margin: 0 auto;
+    }
+}
+
+/* DESKTOP (LG) */
+@media screen and (min-width: 992px) {
+    .am-img-logo-ps {
+        width: 300px;
+    }
 }
