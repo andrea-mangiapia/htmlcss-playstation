@@ -82,19 +82,44 @@ a.am-btn {
 .am-btn-black {
     background-color: #363636;
 }
+.am-btn-black:hover {
+    box-shadow: 0 0 0 3px #363636 inset;
+    outline: 2px solid white;
+    outline-offset: -3px;
+}
 .am-btn-orange {
     background-color: #cd3d0f;
 }
+.am-btn-orange:hover {
+    box-shadow: 0 0 0 3px #cd3d0f inset;
+    outline: 2px solid black;
+    outline-offset: -3px;
+}
 .am-btn-lightblue {
     background-color: #2d64e6;
+}
+.am-btn-lightblue:hover {
+    box-shadow: 0 0 0 3px #2d64e6 inset;
+    outline: 2px solid white;
+    outline-offset: -3px;
 }
 a.am-btn-grey {
     background-color: #d9dadc;
     color: #2d64e6;
 }
+a.am-btn-grey:hover {
+    box-shadow: 0 0 0 3px #d9dadc inset;
+    outline: 2px solid #bebcbb;
+    outline-offset: -3px;
+}
 a.am-btn-white {
     background-color: white;
     color: black;
+}
+a.am-btn-white:hover {
+    box-shadow: 0 0 0 3px white inset;
+    outline: 2px solid #161c3b;
+    outline-offset: -3px;
 }
 /************
     HEADER
@@ -205,10 +230,15 @@ main {
     border-radius: 20px;
 }
 .am-cover:hover img {
-    transform: scale(1.1);;
-    padding: 4px;
-    border: 1px solid #2d64e6;
+    transform: scale(1.1);
+    padding: 5px;
+    box-shadow: 0 0 0 5px #2d64e6 inset;
+    outline: 4px solid white;
+    outline-offset: -5px;
+    transform: translateY(-10px);
+    transition: all 0.2s ease;
 }
+
 /* END Section Cover */
 
 /* Section PlayStation Presentation */
