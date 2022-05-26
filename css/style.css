@@ -80,7 +80,7 @@ a.am-btn {
     padding: 20px 0;
 }
 .am-btn-black {
-    background-color: #363636;;
+    background-color: #363636;
 }
 .am-btn-orange {
     background-color: #cd3d0f;
@@ -136,6 +136,9 @@ header {
 .am-burger a {
     color: black;
 }
+.am-burger a:hover  {
+    color: #2d64e6;
+}
 /* Main Menu */
 .am-burger-menu, .am-main-menu {
     justify-content: space-between;
@@ -160,7 +163,9 @@ ul.am-main-menu-left, ul.am-main-menu-right {
 .am-icon-lens {
     width: 25px;
 }
-
+.am-icon-lens:hover a img {
+    transform: scale(1.1);
+}
 /***********
     MAIN
 ************/
@@ -225,7 +230,47 @@ main {
 }
 /* END Section Covers News */
 
-/* TABLET (MD) */
+/************
+    FOOTER
+*************/
+footer {
+    padding: 40px 0;
+}
+footer a {
+    color: white;
+}
+/* Footer Top */
+.am-brand-footer {
+    padding-bottom: 40px;
+}
+.am-brand-footer img {
+    width: 100px;
+}
+.am-language {
+    padding-top: 40px;
+}
+.am-language-img img {
+    width: 30px;
+    margin-right: 10px;   
+}
+.am-menu-footer ul {
+    padding-left: 20px;
+}
+/* Copyright */
+.am-copy-footer {
+    padding-top: 40px;
+}
+.am-copy-footer img {
+    width: 150px;
+    margin-bottom: 20px;
+}
+.am-copy-footer a {
+    text-decoration: underline;
+}
+
+/******************
+    TABLET (md)
+*******************/
 @media screen and (min-width: 760px) {
     section.am-padd-0 {
         padding: 0;
@@ -236,9 +281,14 @@ main {
     }
 }
 
-/* DESKTOP (LG) */
+/******************
+    DESKTOP (lg)
+*******************/
 @media screen and (min-width: 992px) {
     .am-img-logo-ps {
         width: 300px;
+    }
+    .am-copy-footer {
+        width: 50%;
     }
 }
