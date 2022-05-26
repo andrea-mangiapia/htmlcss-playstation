@@ -215,9 +215,17 @@ main {
 .am-card-ps img {
     padding: 0 30px;
 }
+.am-card-ps:hover img {
+    opacity: 0.6;
+}
 .am-card-ps {
     text-align: center;
+    height: 100%
 }
+.am-card-ps:hover {
+    border-bottom: 2px solid #2d64e6;
+}
+
 /* END Section PlayStation Presentation */
 
 /* Section Covers News */
@@ -250,7 +258,7 @@ footer a {
     padding-top: 40px;
 }
 .am-language-img img {
-    width: 30px;
+    width: 20px;
     margin-right: 10px;   
 }
 .am-menu-footer ul {
