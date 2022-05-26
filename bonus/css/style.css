@@ -1,0 +1,329 @@
+/* RESET */
+body {
+    font-family: Arial, sans-serif;
+}
+img {
+    width: 100%;
+    display: block;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+h2 {
+    font-size: 2.6rem;
+}
+h3 {
+    font-size: 1.4rem;
+}
+h4 {
+    font-size: 1.1rem;
+}
+section {
+    padding: 40px 0;
+}
+section.am-padd {
+    padding: 20px 0;
+}
+section.am-padd-0 {
+    padding: 40px 0;
+}
+
+/* UTILITY */
+.am-padd {
+    padding: 20px 0;
+}
+.am-img-logo-ps {
+    width: 200px;
+    margin-bottom: 20px;
+}
+.am-lightblue {
+    color: #2d64e6;
+}
+.am-header-small h2 {
+    font-size: 2.2rem;
+}
+.am-header-small h3 {
+    font-size: 1.5rem;
+}
+.am-header-small h2, h3 {
+    padding-bottom: 10px;
+}
+/* Color section */
+.am-s-grey-dark {
+    background-color: #1f1f1f;
+    color: white;
+}
+.am-s-lightblue-ps {
+    background-color: #00439c;
+    color: white;
+}
+.am-s-grey-ps {
+    background-color: #bebcbb;
+}
+.am-s-blue-ps {
+    background-color: #161c3b;
+    color: white;
+}
+/* Botton Style */
+a.am-btn {
+    padding: 10px 15px;
+    border-radius: 30px;
+    color: white;
+}
+.am-btn-padd {
+    padding: 20px 0;
+}
+.am-btn-black {
+    background-color: #363636;
+}
+.am-btn-black:hover {
+    box-shadow: 0 0 0 3px #363636 inset;
+    outline: 2px solid white;
+    outline-offset: -3px;
+}
+.am-btn-orange {
+    background-color: #cd3d0f;
+}
+.am-btn-orange:hover {
+    box-shadow: 0 0 0 3px #cd3d0f inset;
+    outline: 2px solid black;
+    outline-offset: -3px;
+}
+.am-btn-lightblue {
+    background-color: #2d64e6;
+}
+.am-btn-lightblue:hover {
+    box-shadow: 0 0 0 3px #2d64e6 inset;
+    outline: 2px solid white;
+    outline-offset: -3px;
+}
+a.am-btn-grey {
+    background-color: #d9dadc;
+    color: #2d64e6;
+}
+a.am-btn-grey:hover {
+    box-shadow: 0 0 0 3px #d9dadc inset;
+    outline: 2px solid #bebcbb;
+    outline-offset: -3px;
+}
+a.am-btn-white {
+    background-color: white;
+    color: black;
+}
+a.am-btn-white:hover {
+    box-shadow: 0 0 0 3px white inset;
+    outline: 2px solid #161c3b;
+    outline-offset: -3px;
+}
+/************
+    HEADER
+*************/
+header {
+    font-family: Helvetica, arial, sans-serif;
+    width: 100%;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+/*** Top Header ***/
+.am-top-header, .am-bottom-header {
+    padding: 10px;
+}
+.am-top-header {
+    background-color: black;
+    height:35px;
+}
+.am-top-header .am-logo-top {
+    height: 15px;
+    display: inline-block;
+    float: right;
+}
+.am-logo-top img {
+    height: 100%;
+}
+/***Bottom Header ***/
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+}
+.navbar-expand-lg .navbar-nav .am-play-menu-item {
+    display: flex;
+    width: fit-content;
+    align-items: center;
+    flex-direction: column;
+}
+.navbar-expand-lg .navbar-nav .am-play-menu {
+    display: flex;
+    justify-content: center;
+}
+.navbar-expand-lg .navbar-nav .am-play-menu-item img {
+    width: 70px;
+}
+.navbar-expand-lg .navbar-nav .am-play-menu-bottom ul {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.navbar-expand-lg .navbar-nav .am-play-menu-bottom a {
+    text-decoration: underline;
+    border-radius: 5px;
+}
+
+/***********
+    MAIN
+************/
+main {
+    margin-top: 95px;
+}
+/* Section Jumbo 1 e 2 */
+.am-jumbo-img-1  {
+    background-image: url(../img/jumbo-bg.png);
+}
+.am-jumbo-img-2  {
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+}
+.am-s-jumbo {
+    width: 100%;
+    height: 700px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+}
+.am-s-jumbo img {
+    max-width: 250px;
+}
+.am-s-jumbo h2 {
+    padding: 20px 0;
+}
+.am-s-jumbo p {
+    font-weight: 700;
+}
+.am-s-jumbo h2, .am-s-jumbo p  {
+    max-width: 420px;
+}
+
+/* Section Cover */
+.am-cover img {
+    border-radius: 20px;
+}
+.am-cover:hover img {
+    transform: scale(1.1);
+    padding: 5px;
+    box-shadow: 0 0 0 5px #2d64e6 inset;
+    outline: 4px solid white;
+    outline-offset: -5px;
+    transform: translateY(-10px);
+    transition: all 0.2s ease;
+}
+
+/* END Section Cover */
+
+/* Section PlayStation Presentation */
+.am-card-ps img {
+    padding: 0 30px;
+}
+.am-card-ps:hover img {
+    opacity: 0.6;
+}
+.am-card-ps {
+    text-align: center;
+    height: 100%
+}
+.am-card-ps:hover {
+    border-bottom: 2px solid #2d64e6;
+}
+
+/* END Section PlayStation Presentation */
+
+/* Section Covers News */
+.am-img-square img {
+    border-radius: 20px;
+}
+.am-cover-square h2 {
+    font-size: 1rem;
+    padding: 10px 0;
+}
+/* END Section Covers News */
+
+/************
+    FOOTER
+*************/
+footer {
+    padding: 40px 0;
+}
+footer a {
+    color: white;
+}
+/* Footer Top */
+.am-brand-footer {
+    padding-bottom: 40px;
+}
+.am-brand-footer img {
+    width: 100px;
+}
+.am-language {
+    padding-top: 40px;
+}
+.am-language-img img {
+    width: 20px;
+    margin-right: 10px;   
+}
+.am-menu-footer ul {
+    padding-left: 20px;
+}
+/* Copyright */
+.am-copy-footer {
+    padding-top: 40px;
+}
+.am-copy-footer img {
+    width: 150px;
+    margin-bottom: 20px;
+}
+.am-copy-footer a {
+    text-decoration: underline;
+}
+
+/******************
+    TABLET (md)
+*******************/
+@media screen and (min-width: 760px) {
+    section.am-padd-0 {
+        padding: 0;
+    }
+    .am-icon-social {
+        max-width: 540px;
+        margin: 0 auto;
+    }
+}
+
+/******************
+    DESKTOP (lg)
+*******************/
+@media screen and (min-width: 992px) {
+    /* HEADER */
+    /***Bottom Header ***/
+    .navbar-expand-lg .navbar-nav .dropdown-menu {
+        position: fixed;
+        top: 108px;
+    }
+
+    /* MAIN */
+    .am-img-logo-ps {
+        width: 300px;
+    }
+
+    /* FOOTER */
+    .am-copy-footer {
+        width: 50%;
+    }
+}
