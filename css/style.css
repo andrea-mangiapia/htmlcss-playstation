@@ -131,6 +131,7 @@ header {
     position: fixed;
     top: 0;
     left: 0;
+    z-index: 1000;
 }
 /*** Top Header ***/
 .am-top-header, .am-bottom-header {
@@ -237,6 +238,7 @@ main {
     outline-offset: -5px;
     transform: translateY(-10px);
     transition: all 0.2s ease;
+    z-index: 100;
 }
 
 /* END Section Cover */
